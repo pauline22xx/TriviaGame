@@ -1,50 +1,6 @@
-* {
-  box-sizing: border-box;
-  font-family: 'helvetica';
-}
 body {
-	background-color: #ddd;
-  margin: 0;
-  padding: 0;
+  font-family: 'helvetica', sans-serif;
 }
-h1,h2,h3,h4,h5 {
-  color: #d24fc6;
-}
-.wrap {
-	width: 100%;
-	float: left;
-  margin-top: 20px;
-}
-.container {
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  background-color: #fff;
-
-}
-.trivia-header {
-  float: left;
-  width: 100%;
-}
-.trivia-header h1 {
-  font-size: 50px;
-}
-form {
-  float: left;
-  width: 100%;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-}
-form input {
-  display: inline-block;
-  margin-right: 10px;
-}
-form label {
-  display: inline-block;
-}
-form .row {
-  float:left;
-  width: 33.33333333%;
+#question-area {
+  line-height: 40px;
 }
